@@ -14,7 +14,7 @@ export const routes = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "/Pokemon-Explorer/",
+        path: "/",
         element: <Home />,
       },
       {
