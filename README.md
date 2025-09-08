@@ -30,8 +30,16 @@ Welcome to **Pokémon Explorer** – your ultimate web app to explore the world 
 
 ## 📸 Screenshots
 
-![Screenshot 1](https://your-image-url.com/screenshot1.png)
-![Screenshot 2](https://your-image-url.com/screenshot2.png)
+<table>
+  <tr>
+    <td><img src="https://github.com/Rakesh-Dey-013/Pokemon-Explorer/blob/main/src/assets/images/Pokemon.png" alt="Screenshot 1" width="100%"/></td>
+    <td><img src="https://github.com/Rakesh-Dey-013/Pokemon-Explorer/blob/main/src/assets/images/Pokemon_02.png" alt="Screenshot 2" width="100%"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Rakesh-Dey-013/Pokemon-Explorer/blob/main/src/assets/images/Pokemon_03.png" alt="Screenshot 3" width="100%"/></td>
+    <td><img src="https://github.com/Rakesh-Dey-013/Pokemon-Explorer/blob/main/src/assets/images/Pokemon_04.png" alt="Screenshot 4" width="100%"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -40,5 +48,14 @@ Welcome to **Pokémon Explorer** – your ultimate web app to explore the world 
 Follow these steps to run the project locally:
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Rakesh-Dey-013/Pokemon-Explorer.git
+```bash
+git clone https://github.com/Rakesh-Dey-013/Pokemon-Explorer.git
+cd Pokemon-Explorer
+```
+
+```bash
+npm install
+npm run dev
+   ```
+3. **Open your browser and navigate to:**
+   ```http://localhost:5173```  
