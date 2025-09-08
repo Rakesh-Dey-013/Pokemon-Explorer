@@ -1,3 +1,4 @@
+// app.jsx
 import { RouterProvider } from "react-router-dom";
 import { routes } from "./routes";
 import { MotionConfig } from "framer-motion";
