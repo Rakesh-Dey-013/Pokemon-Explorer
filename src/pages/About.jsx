@@ -53,6 +53,19 @@ const About = () => {
             Nintendo, Game Freak, and The Pokémon Company.
           </p>
         </div>
+
+        {/* ✅ Added Responsive Profile Card */}
+        <div className="mt-10 flex flex-col sm:flex-col gap-2 bg-zinc-900/50 rounded-xl border border-zinc-700/50 p-6 shadow-lg">
+          <h2 className='text-sm font-semibold text-emerald-500 flex justify-start'>Created By</h2>
+          <div className="text-center sm:text-left">
+            <h3 className="text-2xl font-bold text-white">Rakesh Kr. Dey</h3>
+            <p className="text-gray-400 mb-2">Frontend Developer</p>
+            <p className="text-gray-300 text-sm">
+              Passionate about building interactive web apps and exploring Pokémon data.
+              Always learning and experimenting with new technologies.
+            </p>
+          </div>
+        </div>
       </motion.div>
     </div>
   );

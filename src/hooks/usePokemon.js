@@ -3,7 +3,7 @@ import { fetchPokemonDetails, fetchPokemonSpecies } from "../utils/api";
 
 export const usePokemon = (id) => {
   const pokemonQuery = useQuery({
-    queryKey: ["pokemon", id],
+    queryKey: ["/Pokemon-Explorer/pokemon", id],
     queryFn: () => fetchPokemonDetails(id),
     staleTime: 1000 * 60 * 5, // 5 minutes
   });

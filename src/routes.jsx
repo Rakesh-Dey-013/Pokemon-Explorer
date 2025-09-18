@@ -10,31 +10,31 @@ import Layout from "./components/common/Layout";
 
 export const routes = createBrowserRouter([
   {
-    path: "/",
+    path: "/Pokemon-Explorer",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/Pokemon-Explorer",
         element: <Home />,
       },
       {
-        path: "/explorer",
+        path: "/Pokemon-Explorer/explorer",
         element: <Explorer />,
       },
       {
-        path: "/pokemon/:id",
+        path: "/Pokemon-Explorer/pokemon/:id",
         element: <PokemonDetails />,
       },
       {
-        path: "/all-pokemon",
+        path: "/Pokemon-Explorer/all-pokemon",
         element: <AllPokemon />,
       },
       {
-        path: "/about",
+        path: "/Pokemon-Explorer/about",
         element: <About />,
       },
       {
-        path: "/contact",
+        path: "/Pokemon-Explorer/contact",
         element: <Contact />,
       },
     ],

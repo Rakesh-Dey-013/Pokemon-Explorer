@@ -25,7 +25,7 @@ const EvolutionChain = ({ species }) => {
     return (
       <div key={chain.species.name} className="flex flex-col items-center">
         <Link
-          to={`/pokemon/${pokemonId}`}
+          to={`/Pokemon-Explorer/pokemon/${pokemonId}`}
           className="group relative flex flex-col items-center"
         >
           <div className="w-24 h-24 bg-zinc-800 rounded-full p-2 mb-2 group-hover:bg-zinc-700 transition-colors">

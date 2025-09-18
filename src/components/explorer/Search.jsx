@@ -71,7 +71,7 @@ const Search = () => {
                     whileHover={{ backgroundColor: "rgba(63, 63, 70, 0.5)" }}
                   >
                     <Link
-                      to={`/pokemon/${id}`}
+                      to={`/Pokemon-Explorer/pokemon/${id}`}
                       className="block px-4 py-2 text-white capitalize hover:bg-zinc-700/50 transition-colors"
                     >
                       {pokemon.name}

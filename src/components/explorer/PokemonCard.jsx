@@ -58,7 +58,7 @@ const PokemonCard = ({ pokemon, index = 0 }) => {
       style={{ transformStyle: "preserve-3d" }}
     >
       <Link
-        to={`/pokemon/${id}`}
+        to={`/Pokemon-Explorer/pokemon/${id}`}
         className="block relative overflow-hidden rounded-3xl bg-gradient-to-br from-zinc-900/80 via-slate-900/70 to-black/90 border border-zinc-800/40 backdrop-blur-xl shadow-2xl shadow-black/50 transition-all duration-500"
       >
         {/* Hover Gradient Background */}
