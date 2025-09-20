@@ -92,41 +92,43 @@ const Contact = () => {
         </form>
 
 
-        <div className="bg-zinc-800/50 rounded-lg p-6 border border-zinc-700/50 mt-7 flex justify-between items-center">
-          <h2 className="text-xl font-semibold text-white mb-4">Connect With Us</h2>
+        <div className="bg-zinc-800/50 rounded-lg p-4 sm:p-6 border border-zinc-700/50 mt-7 flex flex-col sm:flex-row justify-between items-center sm:items-start gap-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-white text-center sm:text-left sm:mb-4">
+            Connect With Me
+          </h2>
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-3 sm:space-x-4 justify-center sm:justify-end">
             <a
               href="https://github.com/Rakesh-Dey-013/Pokemon-Explorer"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-12 h-12 bg-zinc-800 hover:bg-zinc-700 rounded-full transition-colors"
+              className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-zinc-800 hover:bg-zinc-700 rounded-full transition-colors duration-200 hover:scale-105"
               aria-label="GitHub"
             >
-              <FaGithub className="text-xl" />
+              <FaGithub className="text-lg sm:text-xl" />
             </a>
 
             <a
               href="https://x.com/RD_Gaming796974"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-12 h-12 bg-zinc-800 hover:bg-zinc-700 rounded-full transition-colors"
+              className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-zinc-800 hover:bg-zinc-700 rounded-full transition-colors duration-200 hover:scale-105"
               aria-label="Twitter"
             >
-              <FaTwitter className="text-xl" />
+              <FaTwitter className="text-lg sm:text-xl" />
             </a>
 
             <a
               href="https://discord.com/users/rakesh_007_13_41681"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-12 h-12 bg-zinc-800 hover:bg-zinc-700 rounded-full transition-colors"
+              className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-zinc-800 hover:bg-zinc-700 rounded-full transition-colors duration-200 hover:scale-105"
               aria-label="Discord"
             >
-              <FaDiscord className="text-xl" />
+              <FaDiscord className="text-lg sm:text-xl" />
             </a>
           </div>
-          </div>
+        </div>
       </motion.div>
     </div>
   );
