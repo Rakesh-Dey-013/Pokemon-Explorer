@@ -5,9 +5,7 @@ Welcome to **Pokémon Explorer** – your ultimate web app to explore the world 
 
 
 ---
-
-### [🧑‍💻 Live Demo ✨](https://rakesh-dey-013.github.io/Pokemon-Explorer/)
-
+### <a href="https://rakesh-dey-013.github.io/Pokemon-Explorer/" target="_blank">🧑‍💻 Live Demo ✨</a>
 ---
 
 ## 🌟 Features
