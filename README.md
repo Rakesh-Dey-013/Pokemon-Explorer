@@ -3,6 +3,11 @@
 
 Welcome to **Pokémon Explorer** – your ultimate web app to explore the world of Pokémon! Dive into an interactive experience where you can browse, search, and discover Pokémon using a sleek, modern interface.
 
+
+---
+
+### [🧑‍💻 Live Demo ✨](https://rakesh-dey-013.github.io/Pokemon-Explorer/)
+
 ---
 
 ## 🌟 Features
